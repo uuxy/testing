@@ -1,0 +1,38 @@
+<html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="d3.js"></script>
+<script type="text/javascript" src="jquery-1.11.3.js"></script>
+    
+<body>
+    <h2>Please fill out the form</h2>
+
+    <form action="fake.php" method="post">
+
+        Height:
+        <input name="height" type="text"> (in meter)
+        <br> Weight:
+        <input name="weight" type="text"> (in kilogram)
+        <br> CKD:
+        <input type="checkbox" name="ckd" value="Yes" />
+        <br> Diabetes:
+        <input type="checkbox" name="diabetes" value="Yes" />
+        <br /> Hypertension:
+        <input type="checkbox" name="hypertension" value="Yes" />
+        <br />
+
+        <select name='race' id='race'>
+            <option value='White'>White</option>
+            <option value='Black'>Black</option>
+            <option value='Asian'>Asian</option>
+            <option value='Other'>Other</option>
+        </select>
+        <br> Ethnicity:
+        <input type="checkbox" name="Hispanic" value="Yes" />
+        <br>
+        <input name="submit" TYPE="submit" name="submit" value="Submit" />
+    </form>
+
+</body>
+
+</html>
