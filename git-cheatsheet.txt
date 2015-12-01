@@ -16,4 +16,8 @@ git commit -m 'folder removed'
 git push origina master
 
 
+git config --global user.name 'uuxy'
+
+git config --global user.email 'xy20150828@gmail.com'
+
  
