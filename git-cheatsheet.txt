@@ -1,0 +1,19 @@
+
+git init
+git commit -m 'inital commit'
+
+git clone https://github.com/uuxy/testing
+
+git add file/folder_name
+
+git commit -m 'folder added'
+
+(in case of next block doesn't work -- git add -A  and then do the following step)
+
+git rm -rf folder_name
+git commit -m 'folder removed'
+
+git push origina master
+
+
+ 
